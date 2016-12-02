@@ -62,6 +62,15 @@
   <ItemGroup>
     <Compile Include="Authentication\ConnectClc.cs" />
     <Compile Include="Authentication\Model\AccountDetails.cs" />
+    <Compile Include="ClcCmdletBase.cs" />
+    <Compile Include="Infrastructure\GetServers.cs" />
+    <Compile Include="Infrastructure\Model\CustomField.cs" />
+    <Compile Include="Infrastructure\Model\Disk.cs" />
+    <Compile Include="Infrastructure\Model\IPAddress.cs" />
+    <Compile Include="Infrastructure\Model\Partition.cs" />
+    <Compile Include="Infrastructure\Model\ServerDetail.cs" />
+    <Compile Include="Infrastructure\Translator\ServerTranslator.cs" />
+    <Compile Include="ITranslator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
